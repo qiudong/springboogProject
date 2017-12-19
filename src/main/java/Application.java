@@ -25,7 +25,6 @@ public class Application {
         SpringApplication springApplication = new SpringApplication(Application.class);
 
         springApplication.run(args);
-        //logger.info(print());
         System.out.println(print());
 
         while (RUN.take()) {
